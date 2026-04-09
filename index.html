@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Ignacio Hilliard | Data Science & AI Analyst</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Iconos de FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="logo">JH.</div>
+        <ul class="nav-links">
+            <li><a href="#home" data-i18n="nav_home">Inicio</a></li>
+            <li><a href="#about" data-i18n="nav_about">Sobre Mí</a></li>
+            <li><a href="#experience" data-i18n="nav_experience">Experiencia</a></li>
+            <li><a href="#projects" data-i18n="nav_portfolio">Portafolio</a></li>
+            <li><a href="#contact" data-i18n="nav_contact">Contacto</a></li>
+        </ul>
+        <button class="lang-toggle" id="langToggle" title="Switch to English">
+            <span class="lang-flag">🇺🇸</span>
+            <span class="lang-label">EN</span>
+        </button>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="greeting" data-i18n="hero_greeting">Hola, soy</span>
+            <h1>Juan Ignacio Hilliard</h1>
+            <h2 data-i18n="hero_subtitle">Analista de Inteligencia Artificial y Científico de Datos</h2>
+            <p data-i18n="hero_description">Estudiante avanzado de Ciencia de Datos enfocado en Python, SQL y la implementación ética de Inteligencia Artificial.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn btn-primary" data-i18n="hero_cta">Contáctame</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí / Habilidades -->
+    <section id="about" class="container">
+        <h2 class="section-title" data-i18n="about_title">Sobre Mí & Habilidades</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p data-i18n="about_p1">Soy una persona organizada, responsable y decidida, con un fuerte enfoque en alcanzar metas. A mis 21 años, cuento con habilidades avanzadas en preprocesamiento de datos, modelos predictivos y análisis de datos.</p>
+                <p data-i18n="about_p2">Mi formación incluye una mentalidad ética sobre la aplicación de la IA y un fuerte pensamiento crítico desarrollado a través de las matemáticas y la estadística.</p>
+                
+                <div class="languages">
+                    <h3 data-i18n="about_languages">Idiomas</h3>
+                    <ul>
+                        <li data-i18n="lang_es">🇪🇸 Español (Nativo)</li>
+                        <li data-i18n="lang_en">🇺🇸 Inglés (C1 - Avanzado)</li>
+                        <li data-i18n="lang_pt">🇧🇷 Portugués (A2 - Intermedio)</li>
+                        <li data-i18n="lang_de">🇩🇪 Alemán (A1 - Básico)</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="skills-container">
+                <h3 data-i18n="skill_stack">Tecnologías</h3>
+                <div class="skill-tags">
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>Power BI</span>
+                    <span data-i18n="skill_excel">Excel Avanzado</span>
+                    <span data-i18n="skill_preprocess">Preprocesamiento de Datos</span>
+                    <span>NLP</span>
+                    <span>LLMs</span>
+                    <span data-i18n="skill_predictive">Modelos Predictivos</span>
+                    <span>Chatbots</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experience" class="container bg-light">
+        <h2 class="section-title" data-i18n="exp_title">Experiencia Laboral</h2>
+        <div class="timeline">
+            
+            <!-- Trabajo 1 -->
+            <div class="timeline-item">
+                <div class="timeline-date" data-i18n="exp1_date">05/2025 - Presente</div>
+                <div class="timeline-content">
+                    <h3 data-i18n="exp1_role">Desarrollador de Software</h3>
+                    <h4 data-i18n="exp1_company">Empresa Confidencial / Freelance</h4>
+                    <ul>
+                        <li data-i18n="exp1_task1">Implementación de IA en flujos de trabajo.</li>
+                        <li data-i18n="exp1_task2">Soporte y mantenimiento de sitios web.</li>
+                        <li data-i18n="exp1_task3">Creación de IAs utilizando modelos de lenguaje (LLMs).</li>
+                        <li data-i18n="exp1_task4">Entrenamiento de Chatbots y capacitación de personal en uso de IA.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Trabajo 2 -->
+            <div class="timeline-item">
+                <div class="timeline-date">03/2024 - 05/2025</div>
+                <div class="timeline-content">
+                    <h3 data-i18n="exp2_role">Analista de Datos</h3>
+                    <h4 data-i18n="exp2_company">Gestión Capital Humano</h4>
+                    <ul>
+                        <li data-i18n="exp2_task1">Recolección y preprocesamiento de datos.</li>
+                        <li data-i18n="exp2_task2">Automatización de procesos con Python.</li>
+                        <li data-i18n="exp2_task3">Administración de bases de datos con SQL.</li>
+                        <li data-i18n="exp2_task4">Reportes estructurados y presentación de insights (Excel/Power BI).</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Educación -->
+    <section id="education" class="container">
+        <h2 class="section-title" data-i18n="edu_title">Educación</h2>
+        <div class="education-grid">
+            <div class="edu-card">
+                <h3 data-i18n="edu1_name">Ciencias del Comportamiento</h3>
+                <span class="school">UCA - Facultad</span>
+                <span class="date" data-i18n="edu1_date">03/2026 - 2030 (En curso)</span>
+            </div>
+            <div class="edu-card">
+                <h3 data-i18n="edu2_name">Ciencia de Datos</h3>
+                <span class="school">Instituto Superior Santo Domingo</span>
+                <span class="date" data-i18n="edu2_date">07/2023 - 2026 (En curso)</span>
+            </div>
+            <div class="edu-card">
+                <h3 data-i18n="edu3_name">Ingeniería en Petróleo</h3>
+                <span class="school" data-i18n="edu3_school">UNCUYO - Facultad de Ingeniería</span>
+                <span class="date">02/2023 - 07/2023</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portafolio / Proyectos -->
+    <section id="projects" class="container bg-light">
+        <h2 class="section-title" data-i18n="portfolio_title">Portafolio</h2>
+        <p style="text-align: center; margin-bottom: 2rem;" data-i18n="portfolio_subtitle">Algunos de mis trabajos en visualización de datos.</p>
+        <div class="projects-grid">
+            <!-- Aquí puedes agregar más tarjetas de proyectos futuros -->
+            <div class="project-card">
+                <div class="project-icon"><i class="fas fa-robot"></i></div>
+                <h3 data-i18n="project1_title">Modelos Predictivos</h3>
+                <p data-i18n="project1_desc">Implementación de algoritmos de clasificación y regresión en Python.</p>
+                <a href="https://github.com/nh0875/Me" class="btn-link" data-i18n="project1_link">Ver Código <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="container contact-section">
+        <h2 class="section-title" data-i18n="contact_title">Contacto</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <p>hilliard.cdm@gmail.com</p>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <p><a href="https://www.linkedin.com/in/hilliardcdm" target="_blank">linkedin.com/in/hilliardcdm</a></p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Mendoza, Argentina</p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <p>+54 261 560 4200</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
